@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.facesnaptab = [
       {
-        title: 'Rojo',
+        title: 'Rojo valisoa andrianantenaina',
         description: 'Mon pdp',
         createDate: new Date(),
         snaps: 150,
@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
         location: "Madagascar",
       },
       {
-        title: 'Rojo',
+        title: 'Sariaka henikahaja',
         description: 'Mon pdp',
         createDate: new Date(),
         snaps: 0,
@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
         location: "Madagascar",
       },
       {
-        title: 'Amboro',
+        title: 'Amboro nao',
         description: 'Mon pdp',
         createDate: new Date(),
         snaps: 0,
