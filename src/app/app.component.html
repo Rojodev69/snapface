@@ -1,3 +1,1 @@
-<app-face-snap [facesnap]="mysnap" ></app-face-snap>
-<app-face-snap [facesnap]="othersnap" ></app-face-snap>
-<app-face-snap [facesnap]="lastsnap" ></app-face-snap>
+<app-face-snap *ngFor="let facesnap of facesnaptab" [facesnap]="facesnap" ></app-face-snap>

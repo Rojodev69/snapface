@@ -27,13 +27,13 @@ export class FaceSnapComponent implements OnInit {
     this.titleButton = 'oh snaped';
   }
   onClickSnaps(){
-    if (this.issnaped == false){
+    if (this.facesnap.issnaped == false){
       this.facesnap.snaps ++;
       this.titleButton =  'oups snaped';
-      this.issnaped = true;
+      this.facesnap.issnaped = true;
     }
     else {
-      this.issnaped = false;
+      this.facesnap.issnaped = false;
       this.facesnap.snaps --;
       this.titleButton =  'oh snaped';
     }
