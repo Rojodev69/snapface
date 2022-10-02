@@ -24,7 +24,7 @@ export class FaceSnapComponent implements OnInit {
     this.snaps = 0;  
     this.imageUrl = 'https://www.01net.com/app/uploads/2020/12/MEA-Photos-App-windows-10-1.jpg';
     this.issnaped = false;
-    this.titleButton = 'oh snaped'
+    this.titleButton = 'oh snaped';
   }
   onClickSnaps(){
     if (this.issnaped == false){
