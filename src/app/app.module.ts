@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { FaceSnapComponent } from './face-snap/face-snap.component';
 import { FaceSnapListComponent } from './face-snap-list/face-snap-list.component';
 import { HeaderComponent } from './header/header.component';
+import { AppRouterModule } from './app-route.module';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { ActiveFacesnapComponent } from './active-facesnap/active-facesnap.component';
 
 @NgModule({
   declarations: [
@@ -13,9 +16,12 @@ import { HeaderComponent } from './header/header.component';
     FaceSnapComponent,
     FaceSnapListComponent,
     HeaderComponent,
+    LandingPageComponent,
+    ActiveFacesnapComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRouterModule,
   ],
   providers: [ 
     {provide: LOCALE_ID, useValue: 'fr-FR'}
